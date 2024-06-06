@@ -1,0 +1,356 @@
+.css-13xfq8m-MuiTabPanel-root {
+    display: flex;
+    padding: 0px !important;
+}
+
+.detail-container-main-organisation {
+    display: flex;
+    padding: 20px;
+    width: 70%;
+}
+
+.main-setting-main .organisation-form {
+    height: 70vh;
+    width: 100vw;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    background-color: var(--glass);
+}
+
+
+
+.table-bookingCopy-PettyCash {
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    background-color: var(--glass);
+    margin: 0px 20px;
+}
+
+.Download-btn {
+    padding: 20px;
+}
+
+/* TIMER START */
+.input-field .times {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.input-field .times input {
+    width: 181px;
+    margin-top: 28px;
+    margin-bottom: 25px;
+    background: transparent;
+    text-align: inherit;
+    border: 1px solid #457cdc;
+    padding: 9px 8px 9px 10px;
+    border-radius: 4px;
+    font-size: 17px;
+}
+
+.organisation-details {
+    margin: 0px 20px 20px 20px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    padding: 20px 0px;
+    background-color: var(--glass);
+}
+
+.organisation-details .input {
+    /* margin-left: 20px; */
+    justify-content: start !important;
+}
+
+.organisation-details .address-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field .times label {
+    position: absolute;
+    color: #272626;
+    font-size: 14px;
+    top: 0px;
+    font-weight: 500;
+    left: 5px;
+}
+
+/* TIMER END */
+.form-container-UserSettings .container-main::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    outline: 1px solid transparent;
+}
+
+.form-container-UserSettings .container-main {
+    border: 2px solid #ccc;
+    overflow: scroll;
+    height: 77vh;
+    width: 81vw;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    color: #000;
+    background-color: var(--glass) !important;
+}
+
+@media screen and (max-width:768px) {
+    .form-container-UserSettings .container-main {
+        width: 93vw;
+    }
+}
+
+.organisation-form .Title-Name {
+    position: relative;
+}
+
+.container-organisation-main {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+    /* width: 100%; */
+    margin: 30px auto;
+    background-color: var(--glass);
+    padding: 20px 35px 20px 0px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+}
+
+.container-organisation-left {
+    /* height: 300px; */
+    border-right: solid 3px #457cdc;
+}
+
+.container-organisation-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.user-photo-edit {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+@media screen and (min-width:769px) and (max-width: 969.99px) {
+    .container-organisation-main {
+        width: 61vw;
+    }
+}
+
+@media screen and (min-width:540px) and (max-width: 769.99px) {
+    .container-organisation-main {
+        width: 82vw;
+    }
+}
+
+@media screen and (min-width:450px) and (max-width: 539.99px) {
+    .container-organisation-main {
+        width: 78vw;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width: 449.99px) {
+    .container-organisation-main {
+        width: 70vw;
+    }
+}
+
+
+
+/* 
+@media screen and (min-width:970px)  and (max-width: 1011px){
+    .container-organisation-main {
+        width: 95%;
+    }
+}
+
+@media screen and (min-width:769px)  and (max-width: 969.99px){
+    .container-organisation-main {
+        width: 61vw;
+    }
+}
+
+@media screen and (min-width:540px)  and (max-width: 769.99px){
+    .container-organisation-main {
+        width: 69vw;
+    }
+}
+
+@media screen and (min-width:320px)  and (max-width: 539.99px){
+    .container-organisation-main {
+        width: 61vw;
+    }
+} */
+
+.organisation-details-input-feilds {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media only screen and (min-width:964px) and (max-width:1241px) {
+
+    .input-buttons-small {
+        width: 200px !important;
+    }
+
+    /* .container-organisation-left{
+border-right: 1px solid transparent !important;
+    } */
+}
+
+@media screen and (max-width:963.99px) {
+    .container-organisation-main {
+        flex-wrap: wrap !important;
+    }
+
+    .input-buttons-small {
+        width: 200px !important;
+    }
+
+    .container-organisation-left {
+        border-right: 1px solid transparent !important;
+    }
+}
+
+.container-organisation-main {
+    flex-wrap: nowrap;
+}
+
+@media screen and (max-width: 562px) {
+    .organisation-details-input-feilds {
+        flex-wrap: wrap !important;
+        flex-direction: column;
+    }
+}
+
+.organisation-details-input {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+@media screen and (max-width: 465px) {
+    .save-cancel-inputs {
+        flex-wrap: wrap !important;
+    }
+
+    .office-address {
+        flex-wrap: wrap;
+    }
+
+    .organization-input {
+        /* width: 150px !important; */
+        flex-wrap: wrap !important;
+    }
+
+    .organisation-input-field {
+        width: 230px !important;
+    }
+
+    .organisation-details {
+        margin: 10px;
+        border: none !important;
+        border-radius: 15px;
+        padding: 0px;
+        background-color: var(--glass);
+    }
+
+    .organisation-details .input {
+        margin-left: 0px;
+        justify-content: center !important;
+    }
+}
+
+
+@media only screen and (min-width:466px) and (max-width: 656px) {
+    .organization-input {
+        /* width: 200px !important; */
+        flex-wrap: wrap !important;
+    }
+}
+
+.organisation-input-row {
+    display: flex;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.organisation-input-row .office-address,
+.organisation-input-row .organization-input {
+    width: fit-content;
+    display: grid;
+    gap: 10px;
+    padding-left: 30px;
+}
+
+@media screen and (max-width: 1040px) {
+    .organisation-input-row {
+        flex-wrap: wrap;
+    }
+
+    .organisation-details .input {
+        justify-content: center !important;
+    }
+
+    .organisation-btn {
+        justify-content: center;
+    }
+
+    .organisation-input-row .office-address,
+    .organisation-input-row .organization-input {
+        padding-left: 0px;
+    }
+}
+
+.organisation-btn-row, .organisation-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 1041px) {
+    .organisation-btn-row {
+        position: relative;
+        top: 14px;
+    }
+}
+
+/* 
+.organisation-input-field{
+   width:  300px;
+} */
+
+.organisation-details-input .organization-input {
+    width: 300px !important;
+    gap: 10px;
+}
+
+.organisation-details-input .organization-text-area {
+    width: 300px !important;
+}
+
+.organisation-details-input-sub-division {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 68vw;
+    gap: 10px;
+}
+
+.organisation-address-field {
+    width: 87%;
+}
+
+.organisation-avatar-icon{
+    font-size: 55px;
+}

@@ -1,0 +1,54 @@
+.permission-table {
+    width: -webkit-fill-available;
+    overflow-y: auto;
+    height: 400px !important;
+}
+
+.permission-table::-webkit-scrollbar {
+    width: 4px !important;
+    background-color: #457ddd;
+}
+
+.table-header {
+    position: sticky;
+    top: 0;
+    z-index: 111;
+}
+
+.td-content {
+    text-align: center;
+    background-color: #E0F1F9;
+}
+
+.table-header>.th-content {
+    text-align: center;
+    background-color: #fff8f0;
+}
+
+@media only screen and (max-width:969px) {
+    .search-profile {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.Booking-table {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.table-up-down-icon {
+    font-size: 20px;
+}
+
+.user-permission-table-title {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.user-permission-dashboard-row {
+    background-color: #E0F1F9;
+}

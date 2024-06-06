@@ -1,0 +1,111 @@
+.MuiTableRow-root>* {
+  padding: 10px;
+}
+
+.Table {
+  padding: 0px 10px;
+}
+
+.Table .MuiPaper-root {
+  height: 280px;
+}
+
+.Table thead th {
+  top: 0;
+  background-color: #797777;
+  color: #fff;
+  position: sticky;
+}
+
+.Table tbody tr {
+  overflow: scroll;
+}
+
+.Table td,
+th {
+  border: none !important;
+}
+
+.Table:first-child {
+  border-radius: 0.7rem !important;
+}
+
+.status {
+  padding: 8px;
+  border-radius: 9px;
+}
+
+.Details {
+  color: #00b5ff !important;
+}
+
+@media screen and (min-width:769px) and (max-width: 804px) {
+  .Table {
+    width: 79% !important;
+  }
+}
+
+@media screen and (min-width:804.99px) and (max-width: 840px) {
+  .Table {
+    width: 83% !important;
+  }
+}
+
+@media screen and (min-width:841px) and (max-width: 881px) {
+  .Table {
+    width: 87% !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .Table {
+    width: 97%;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Table {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+  }
+}
+
+.dialog-close-btn {
+  position: absolute;
+  right: 0;
+}
+
+.driverdetails-table-head {
+  background-color: rgb(255, 255, 255) !important;
+  color: rgba(0, 0, 0, 0.87) !important;
+  font-size: 15px !important;
+  z-index: 2;
+  font-weight: 600 !important;
+  text-align: center !important;
+}
+
+.driverdetails-table-header {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.driver-name {
+  background-color: transparent;
+  color: #168bff !important;
+  text-align: center !important;
+  font-weight: 700 !important;
+}
+
+.driver-trip-id,
+.driver-trip-date {
+  color: #9f9fa8 !important;
+  text-align: center !important;
+}
+
+.driver-tripstatus,
+.driver-details {
+  text-align: center !important;
+}

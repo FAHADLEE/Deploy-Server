@@ -1,0 +1,266 @@
+/* HEADER CONTAINER */
+.Billing-page-header {
+  padding: 20px;
+  margin-bottom: -10px;
+}
+
+/*SECEND-CONTAINER  */
+.Billing-page-secend-container {
+  display: flex;
+  border-top: solid 1px #ccc;
+  padding: 20px;
+}
+
+/* Button */
+.Download-btn {
+  padding: 20px 10px;
+}
+
+/* TABLE */
+.customer-list-table-container {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.table-customer-list {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  height: 400px;
+  width: 100%;
+  overflow: scroll;
+}
+
+.form-container .Title-Name {
+  font-size: 20px;
+  padding-left: 20px;
+  font-weight: 500;
+}
+
+.form-container.form-container-billing {
+  width: 100% !important;
+  overflow-x: hidden;
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  color: #000;
+}
+
+.detail-container-main-customer {
+  border-top: 1px solid #ccc;
+  padding: 20px;
+}
+
+.form-container .Billing-form::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  overflow-x: hidden;
+}
+
+.form-container .Title-Name {
+  position: relative;
+}
+
+.form-container .Title-Name::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 10px;
+  width: 100%;
+  border-radius: 20px;
+  height: 3px;
+  background-color: #457cdc;
+}
+
+.form-container .Billing-form::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.form-container .Billing-form::-webkit-scrollbar-thumb {
+  background-color: rgb(217, 212, 212);
+  outline: 1px solid slategrey;
+}
+
+.form-container .Billing-form {
+  overflow: scroll;
+  height: 75vh;
+  width: 81vw;
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  background-color: var(--glass);
+}
+
+@media screen and (max-width: 768px) {
+  .form-container .Billing-form {
+    width: 93vw;
+  }
+}
+
+.input-field .input-mobile {
+  width: 100% !important;
+  margin-top: 0px !important;
+
+}
+
+
+.Billing-secend-right {
+  border: 2px solid #ccc;
+  border-radius: 30px;
+  background-color: var(--glass);
+  padding: 0px 15px 0px 12px;
+  margin-left: 13px;
+  width: 50%;
+  margin-top: 30px;
+}
+
+.input-feild-booking {
+  flex-wrap: wrap;
+}
+
+.Billing-secend-left {
+  width: 50%;
+}
+
+.input-billing {
+  width: 200px !important;
+}
+
+.inputfeild-billing-right {
+  justify-content: center;
+}
+
+.inputfeild-billing-right-margin-bottom{
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width:1032px) and (max-width:1240.99px) {
+  .Billing-secend-right {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width:967.99px) and (max-width:1031.99px) {
+  .Billing-page-secend-container {
+    flex-wrap: wrap;
+  }
+
+  .inputfeild-billing-right {
+    justify-content: center;
+  }
+
+  .Billing-secend-left {
+    width: 90%;
+
+  }
+
+  .Billing-secend-right {
+    width: 90%;
+  }
+
+  .input-feild-booking {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+}
+
+@media screen and (max-width:968px) {
+  .Billing-page-secend-container {
+    flex-wrap: wrap;
+  }
+
+  .Billing-secend-right {
+    width: 80%;
+  }
+
+  .Billing-secend-left {
+    width: 80%;
+
+  }
+
+}
+
+@media screen and (max-width:600px) {
+  .inputfeild-billing-right {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .Billing-secend-left {
+    width: 100%;
+
+  }
+
+  .input-feild-left-bottom {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+}
+
+@media screen and (max-width:698.99px) {
+  .input-feild-booking {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.input-field .input-mobile {
+  width: 100% !important;
+}
+
+.mobile-division-two {
+  flex-wrap: wrap;
+  background-color: #fff;
+  gap: 1px;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0px;
+}
+
+@media screen and (max-width:500px) {
+  .desktop-division-one {
+    display: none !important;
+  }
+
+  .mobile-division-two {
+    display: block !important;
+
+  }
+}
+
+@media screen and (min-width:501px) {
+  .desktop-division-one {
+    display: block !important;
+  }
+
+  .mobile-division-two {
+    display: none !important;
+
+  }
+}
+
+.min-charge-value-input {
+  padding-top: 20px;
+}
+
+.biling-amount-input {
+  padding-top: 20PX;
+}
+
+.biling-amount-input-total {
+  padding-top: 10px;
+}
+
+.billing-calculation-icon {
+  margin-left: 50%;
+  margin-top: 5px;
+}
+
+.billing-permit-input,
+.billing-permit-input,
+.billing-toll-input,
+.billing-Vpermit-input,
+.billing-vendortoll-input {
+  padding-top: 10px;
+}

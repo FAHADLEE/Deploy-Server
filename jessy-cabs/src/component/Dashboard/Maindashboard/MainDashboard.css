@@ -1,0 +1,384 @@
+:root {
+  --yellow: linear-gradient(180deg, #f8d49a -146.42%, #fad79d -46.42%);
+  --orange: #fca61f;
+  --black: #242d49;
+  --gray: #788097;
+  --purple: linear-gradient(180deg, #bb67ff 0%, #c484f3 100%);
+  --pink: #ff919d;
+  --glass: rgba(255, 255, 255, 0.708);
+  --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+  --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+  --activeItem: #f799a354;
+}
+
+.dash-board.default {
+  background-image: url('https://nastaf.com/themes/theme-2.jpg');
+}
+
+.dash-board.theme1 {
+  background-image: url('https://nastaf.com/themes/theme-1.jpg');
+}
+
+.dash-board.theme2 {
+  background-image: url('https://nastaf.com/themes/theme-2.jpg');
+}
+
+.dash-board.theme3 {
+  background-image: url('https://nastaf.com/themes/theme-3.jpg');
+}
+
+.dash-board.theme4 {
+  background-image: url('https://nastaf.com/themes/theme-4.jpg');
+}
+
+.dash-board.theme5 {
+  background-image: url('https://nastaf.com/themes/theme-5.jpg');
+}
+
+.dash-board.theme6 {
+  background-image: url('https://nastaf.com/themes/theme-6.jpg');
+}
+
+.dash-board.theme7 {
+  background-image: url('https://nastaf.com/themes/theme-7.jpg');
+}
+
+.dash-board.theme8 {
+  background-image: url('https://nastaf.com/themes/theme-8.jpg');
+}
+
+.dash-board.theme1 .live-driver-status-heading, .dash-board.theme1 .card-filter-label{
+  color: #242d49;
+}
+
+.dash-board.theme2 .live-driver-status-heading, .dash-board.theme2 .card-filter-label, .dash-board.theme2 .area-chart-text{
+  color: #fff;
+}
+
+.dash-board.theme3 .live-driver-status-heading, .dash-board.theme3 .card-filter-label, .dash-board.theme3 .area-chart-text{
+  color: #fff;
+}
+
+.dash-board.theme4 .live-driver-status-heading, .dash-board.theme4 .card-filter-label, .dash-board.theme4 .area-chart-text{
+  color: #fff;
+}
+
+.dash-board.theme5 .live-driver-status-heading, .dash-board.theme5 .card-filter-label, .dash-board.theme5 .area-chart-text{
+  color: #fff;
+}
+
+.dash-board.theme6 .live-driver-status-heading, .dash-board.theme6 .card-filter-label{
+  color: #242d49;
+}
+
+.dash-board.theme7 .live-driver-status-heading, .dash-board.theme7 .card-filter-label{
+  color: #242d49;
+}
+
+.dash-board.theme8 .live-driver-status-heading, .dash-board.theme8 .card-filter-label, .dash-board.theme8 .area-chart-text{
+  color: #fff;
+}
+
+
+
+.dash-board {
+  color: var(--black);
+  background-repeat: no-repeat, repeat;
+  background-size: 100%;
+  background-image: url('https://nastaf.com/themes/theme-2.jpg');
+  transition: background-image 0.5s;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glass {
+  display: grid;
+  height: 95%;
+  width: 97%;
+  backdrop-filter: blur(5px);
+  border-radius: 2rem;
+  border: 2px solid var(--glass);
+  gap: 16px;
+  grid-template-columns: 11rem auto 20rem;
+  grid-auto-flow: row;
+  overflow: hidden;
+}
+
+@media (max-width: 1219px) {
+  .glass {
+    display: grid;
+    height: 85% !important;
+    width: 97%;
+    backdrop-filter: blur(5px);
+    border-radius: 2rem;
+    border: 2px solid var(--glass);
+    gap: 16px;
+    grid-template-columns: 11rem auto !important;
+    overflow: hidden !important;
+    padding-bottom: 20px;
+    margin-top: -30px !important;
+  }
+
+  .glass::-webkit-scrollbar {
+    width: 3px;
+  }
+}
+
+.glass::-webkit-scrollbar {
+  width: 3px;
+}
+
+@media screen and (max-width: 1200px) {
+  .dash-board {
+    background-image: url("https://images.pexels.com/photos/5845709/pexels-photo-5845709.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .dash-board {
+    background-size: cover;
+    background-position: 50%;
+    background-image: url("https://images.pexels.com/photos/5845709/pexels-photo-5845709.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  }
+
+  .header-user {
+    display: none !important;
+  }
+
+  .glass {
+    grid-template-columns: auto !important;
+  }
+}
+
+
+.header-user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 5px 20px 5px;
+  padding: 0px 10px;
+  right: 30px;
+  border-radius: 10px;
+  border: 2px solid #17131327;
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  background-color: #cccccc44;
+}
+
+.user-name-item p {
+  text-transform: capitalize;
+  padding: 0px 5px;
+  color: #000;
+  font-size: 13px;
+  cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: 0.2s;
+}
+
+.user-name-item p:hover {
+  text-decoration: underline;
+  color: rgb(19, 109, 255);
+}
+
+.logout-item {
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 10px;
+  transition: .1s;
+}
+
+.logout-item:hover {
+  background-color: #cccccc6f;
+}
+
+.logout-icon {
+  cursor: pointer;
+  color: #000;
+  font-size: 25px;
+}
+
+.cards-container .card-filter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 20px;
+}
+
+.cards-container .card-filter label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.cards-container .card-filter select {
+  width: 200px;
+  font-weight: 600;
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* popup modal */
+
+.warning-icon {
+  color: red;
+  font-size: 50px;
+}
+
+.modal-warning-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.modal-warning-text {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.yes-no-buttons {
+  justify-content: center !important;
+}
+
+.logout-btn {
+  color: #fff !important;
+  background-color: red !important;
+}
+
+.logout-cancel-btn {
+  background-color: #fff !important;
+  border: 1px solid #494848 !important;
+  color: #000 !important;
+}
+
+.user-icon-update {
+  font-size: 19px;
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.user-icon-update-dot {
+
+  position: absolute;
+  top: -3px;
+  right: 0px;
+  background-color: red;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  box-shadow: rgba(255, 0, 0, 0.5) 0px 0px 6px 0px;
+}
+
+/* popup */
+.popup {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  position: absolute;
+  top: 60px;
+  right: 27px;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 400px) {
+
+  .popup {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    position: absolute;
+    top: 20px;
+    left: -164px;
+    z-index: 1;
+  }
+}
+
+.update-card {
+  background-color: #F1F1F1;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px;
+  width: fit-content;
+}
+
+.update-button {
+  background-color: blue;
+  border: 2px solid blue;
+  color: #F1F1F1;
+  padding: 10px 40px;
+  border-radius: 25px;
+  font-weight: 700;
+}
+
+.whats-new-image {
+  position: relative;
+  top: -67px;
+  width: 200px;
+  height: auto;
+}
+
+.update-text {
+  margin-top: -97px;
+
+}
+
+.close-button-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: gray;
+}
+
+.close-button:hover {
+  color: black;
+}
+
+.login-user-name-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  width: 40px;
+}
+
+/* .tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+} */
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(128, 128, 128);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+  font-size: 14px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
